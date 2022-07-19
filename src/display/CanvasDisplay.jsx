@@ -11,7 +11,7 @@ const MyDisplay = (props) => {
     const initComp = () => (
         <Stage width={window.innerWidth} height={window.innerHeight}>
             <Layer>
-                <Text text="Some text on canvas" fontSize={15} />
+                {/* <Text text="Some text on canvas" fontSize={15} /> */}
                 <Circle x={200} y={400} radius={20} fill="green" />
                 {/* <Line
                 x={200}
